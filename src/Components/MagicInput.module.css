@@ -1,0 +1,35 @@
+.editableDiv {
+  font-family: sans-serif;
+  width: 100%;
+  border: 1px dashed #aaa;
+  padding: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+}
+
+.MagicInputContainer {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  background-color: aliceblue;
+  flex-direction: column;
+}
+
+.BadgeItem {
+  background-color: rgb(49, 40, 136);
+  color: white;
+  font-weight: 600;
+  padding: 3px 6px;
+  margin: 2px 2px;
+  display: inline-block;
+}
+
+.BadgeItemOperator {
+  /* background-color: rgb(128, 28, 6); */
+  /* color: white; */
+  font-weight: 600;
+  padding: 3px 6px;
+  margin: 2px 2px;
+  display: inline-block;
+}
